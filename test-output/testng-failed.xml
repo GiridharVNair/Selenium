@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test.Sauce_Home_Page_test">
+        <methods>
+          <include name="checkOutBtn"/>
+          <include name="tearDown"/>
+          <include name="checkOutTitle"/>
+          <include name="checkBtnEnable"/>
+          <include name="addToCart"/>
+          <include name="openBrowser"/>
+          <include name="finishButton"/>
+          <include name="vertifyText"/>
+          <include name="cartTitle"/>
+          <include name="checkOutDetails"/>
+          <include name="browserclose"/>
+          <include name="cartIcon"/>
+          <include name="beforemthd"/>
+          <include name="checkoutButtonClick"/>
+          <include name="dropDown"/>
+        </methods>
+      </class> <!-- test.Sauce_Home_Page_test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
